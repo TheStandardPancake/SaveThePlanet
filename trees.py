@@ -1,7 +1,7 @@
 from slenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from time import sleep
-driver = webdriver.Chromium()
+driver = webdriver.Chrome('./chromedriver.exe')
 driver.get('https://www.ecosia.org')
 i=1
 while True:
